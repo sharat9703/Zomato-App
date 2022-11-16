@@ -7,7 +7,7 @@ const Home =(props)=>{
         <React.Fragment>
             <Search/>
             <QuickSearch/>
-        </React.Fragment>
+        </React.Fragment> 
     )
 }
 
