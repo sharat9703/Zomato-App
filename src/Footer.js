@@ -9,7 +9,7 @@ const Footer =()=>{
       <h3 className="text-white text-center">© Sharat's Lab</h3>
       <div className="container py-5 text-white d-sm-block">
         <p className="float-end mb-1 d-sm-block">
-          <Link to={'/search'}>Back to top</Link>
+          <Link to={'#search'}>Back to top</Link>
         </p>
         <p className="mb-1 d-sm-block">
           If you want to contact us , please do so! <Link to={'/'}>Contact</Link>
