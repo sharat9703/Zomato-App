@@ -32,4 +32,8 @@ const Search =(props)=>{
     )
 }
 
+componentDidMount(){
+  
+}
+
 export default Search;
