@@ -6,9 +6,9 @@ const Search =(props)=>{
     return(
       <header>
         <div id="search">
-        <div className="float-lg-end m-3 float-md-start float-sm-start">
-            <Link to={'#'} className="btn text-light h2 fw-bold">Login</Link>
-            <Link to={'#'} className="btn text-light h2 fw-bold">Sign up</Link>
+        <div className="float-lg-end m-3 float-md-start float-sm-start float-xs-start">
+            <Link to={'/'} className="btn text-light h1 fw-bold fs-5">Login</Link>
+            <Link to={'/'} className="btn text-light h1 fw-bold fs-5">Sign up</Link>
         </div>
         <div id="logo">
           <span className="text-danger">e!</span>   
