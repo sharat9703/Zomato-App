@@ -94,7 +94,7 @@ select {
 
 /* Footer Block Css */
 footer {
-  height: 140px;
+  height: 240px;
   background-color: #3b2632;
   color: #fff;
   text-align: center;
@@ -116,7 +116,7 @@ ul {
 
 @media screen and (max-width: 1600px) {
   body {
-    background-color: skyBlue;
+    background-color: rgb(192, 207, 212);
   }
 }
 
