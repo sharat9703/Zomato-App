@@ -4,7 +4,7 @@ import './Header.css';
 
 const Header =(props)=>{
     return(
-        <header>
+        <div className='d-none'>
             <nav className="navbar navbar-expand-lg">
   <div className="container-fluid">
     <Link className="navbar-brand" to={'/'}>Zomato</Link>
@@ -26,7 +26,7 @@ const Header =(props)=>{
     </div>
   </div>
 </nav>
-        </header>
+        </div>
     )
 }
 

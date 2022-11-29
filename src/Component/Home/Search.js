@@ -1,8 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Home.css'
 
 const Search =(props)=>{
     return(
+      <header>
         <div id="search">
         <div className="float-lg-end m-3 float-md-start float-sm-start">
             <Link to={'#'} className="btn text-light h2 fw-bold">Login</Link>
@@ -26,6 +28,7 @@ const Search =(props)=>{
           </select>
         </div>
       </div>
+      </header>
     )
 }
 
