@@ -1,9 +1,23 @@
-import React from 'react';
+import React,{Component} from 'react';
 import { Link } from 'react-router-dom';
 import './Home.css'
 
-const Search =(props)=>{
+const lurl = 'https://zomatoajulypi.heroku.com/location';
+
+class Search extends Component{
+
+  constructor(){
+  super()
+
+  this.state={
+    location:''
+  }
+}
+
+  render(){ 
+   
     return(
+      
       <header>
         <div id="search">
         <div className="float-lg-end m-3 float-md-start float-sm-start float-xs-start">
@@ -30,10 +44,12 @@ const Search =(props)=>{
       </div>
       </header>
     )
+  }
+    
 }
 
-componentDidMount(){
+/*componentDidMount(){
   
-}
+}*/
 
 export default Search;

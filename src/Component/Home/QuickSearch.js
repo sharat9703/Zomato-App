@@ -9,12 +9,11 @@ const QuickSearch = (props) => {
       style={{ marginBottom: "94px" }}
     >
       <span id="QuickHeading" className="h2 text-dark">
-        {" "}
-        Quick Search{" "}
+        Quick Search
       </span>
       <span id="QuickSubHeading" className="text-muted text-dark">
-        {" "}
-        Find Restaurants By MealType{" "}
+        
+        Find Restaurants By MealType
       </span>
       <div className="mainTileContainer row">
         <div
@@ -87,7 +86,7 @@ const QuickSearch = (props) => {
             className="row ms-0 img-thumbnail d-flex justify-content-start shadow "
             style={{height: "100%"}}
           >
-            {" "}
+            
             <div className="col-4">
               <img
                 src={require("./images/snacks.png")}
@@ -118,7 +117,7 @@ const QuickSearch = (props) => {
             className="row ms-0 img-thumbnail d-flex justify-content-start shadow"
             style={{height: "100%"}}
           >
-            {" "}
+            
             <div className="col-4">
               <img
                 src={require("./images/snacks.png")}
@@ -179,7 +178,7 @@ const QuickSearch = (props) => {
             className="row ms-0 img-thumbnail d-flex justify-content-start shadow"
             style={{height: "100%"}}
           >
-            {" "}
+            
             <div className="col-4">
               <img
                 src={require("./images/south.png")}
